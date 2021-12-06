@@ -9,3 +9,50 @@ Data in [GeoJSON](https://geojson.org/) format.
 50 bikes, 150 scooters. Around 143,000 trips per month. All trips from 7am to midnight every day.
 
 An example: https://gist.github.com/adolfosilva/509afdbb2fe1154a41d14d1273742fca
+
+## Schema
+
+```json
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "coordinates": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "properties": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [],
+              "properties": {
+                "timestamp": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
