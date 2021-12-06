@@ -3,3 +3,4 @@ trips_february_2022_collected_norm.tar.bz2 filter=lfs diff=lfs merge=lfs -text
 trips_january_2022_collected_norm.tar.bz2 filter=lfs diff=lfs merge=lfs -text
 trips_march_2022_collected_norm.tar.bz2 filter=lfs diff=lfs merge=lfs -text
 trips_april_2022_collected_norm.tar.bz2 filter=lfs diff=lfs merge=lfs -text
+trips_may_2022_collected_norm.tar.bz2 filter=lfs diff=lfs merge=lfs -text
