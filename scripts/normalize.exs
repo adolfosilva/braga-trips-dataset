@@ -1,4 +1,4 @@
-Mix.install([{:jason, "~> 1.2"}, {:httpoison, "~> 1.8"}])
+Mix.install([{:jason, "~> 1.2"}])
 
 defmodule Transformer do
   @choices %{
